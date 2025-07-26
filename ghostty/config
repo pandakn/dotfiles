@@ -1,3 +1,11 @@
 theme = catppuccin-mocha
-#theme = catppuccin-latte
 
+font-family = MesloLGS Nerd Font Mono
+font-size = 14
+
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+macos-option-as-alt = true
+
+background-opacity = 0.96
+background-blur-radius = 40
