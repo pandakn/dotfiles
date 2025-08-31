@@ -30,13 +30,17 @@ return {
     lazy = false,
     name = "catppuccin",
     opts = {
+      transparent_background = true,
       integrations = {
         aerial = true,
         alpha = true,
         cmp = true,
         dashboard = true,
         flash = true,
-        gitsigns = true,
+        gitsigns = {
+          enabled = true,
+          transparent = false,
+        },
         headlines = true,
         illuminate = true,
         indent_blankline = { enabled = true },
